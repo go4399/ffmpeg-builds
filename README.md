@@ -27,3 +27,34 @@ FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.e
 
 * 支持 x86-64-v3 的 CPU，如 Intel 酷睿 4 代及以上，AMD 锐龙 1000 系列及以上（部分低功耗或嵌入式型号不满足 x86-64-v3 要求）
 * Windows 7 及以上操作系统，ucrt 运行时
+
+## 外部库版本
+
+| libraries         | version     |
+|-------------------|-------------|
+| libass            | 0.17.4      |
+| libdav1d          | 1.5.2       |
+| libfontconfig     | 2.17.1      |
+| libfreetype       | 2.14.1      |
+| libfribidi        | 1.0.16      |
+| libharfbuzz       | 12.2.0      |
+| libmp3lame        | 3.100       |
+| libopus           | 1.5.2       |
+| librubberband     | 3.3.0       |
+| libsvtav1         | 3.1.2       |
+| libvpx            | 1.15.2      |
+| libwebp           | 1.6.0       |
+| libx264           | 0.165.r3222 |
+| libx265           | 4.1         |
+| libzimg           | 3.0.5       |
+| sdl2              | 2.32.10     |
+| amf-headers       | 1.4.36.0    |
+| ffnvcodec-headers | 13.0.19.0   |
+| libvpl            | 2.15.0      |
+| vulkan-headers    | 1.4.328.1   |
+
+## 更新
+
+2025-12-01
+Source: https://github.com/FFmpeg/FFmpeg/commit/7043522fe07b4678de59e01f987de8f2f46d40a2
+
