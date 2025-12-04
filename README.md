@@ -55,5 +55,6 @@ FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.e
 
 ## 更新
 
-2025-12-03
-Source: https://github.com/FFmpeg/FFmpeg/commit/b98179cec637e380d755fcfa2a461709278139d2
+2025-12-04
+Source: https://github.com/FFmpeg/FFmpeg/commit/d6458f6a8bf188a9b323962b7cb01dc855a89936
+
