@@ -12,12 +12,12 @@ FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.e
 ```
 avisynth+ lcms2 libass libdav1d libfontconfig libfreetype libfribidi libharfbuzz
 libmp3lame libopus libplacebo librubberband libshaderc libsvtav1 libvorbis libvpx
-libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth
-amf cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
+libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
+amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 ```
 
-* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜）
-* 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libx264（h264 视频格式），libx265（hevc 视频格式），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libwebp（webp 图片格式），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜）
+* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），whisper.cpp（whisper 音频滤镜）
+* 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libx264（h264 视频格式），libx265（hevc 视频格式），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libwebp（webp 图片格式），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
 * 字幕有关：libass（ass/ssa 字幕），libfontconfig / libfreetype / libfribidi / libharfbuzz（字体处理）
 * 渲染有关：sdl2 / vulkan（ffplay 渲染）
 * 硬件加速：amf（AMD 硬件加速），libvpl （Intel 硬件加速），nvenc / nvdec / cuda / cuvid（nVidia 硬件加速），d3d11va / d3d12va / dxva2（DirectX 硬件加速），vulkan（GPU 硬件加速），mediafoundation（Windows Media Foundation 硬件加速，Windows 8+）
@@ -25,8 +25,8 @@ amf cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 本编译版与 https://www.gyan.dev/ffmpeg/builds 的 git-essentials 版差异：
 
 * 不支持 cairo libaom libgme libgsm libopencore-amrnb libopencore-amrwb libopenjpeg libopenmpt libspeex libsrt libssh libtheora libvidstab libvmaf libvo-amrwbenc libxvid libzmq openal 外部库
-* 不支持 cuda vaapi 硬件加速
-* 支持 lcms2 libdav1d libplacebo libshaderc libsvtav1 vapoursynth 外部库
+* 不支持 vaapi 硬件加速
+* 支持 lcms2 libdav1d libplacebo libshaderc libsvtav1 vapoursynth whisper 外部库
 * 支持 vulkan 硬件加速
 * 采用动态链接
 
@@ -51,23 +51,24 @@ amf cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libopus           | 1.5.2       |
 | libplacebo        | 7.351.0     |
 | librubberband     | 3.3.0       |
-| libshaderc        | 2025.4      |
+| libshaderc        | 2025.5      |
 | libsvtav1         | 3.1.2       |
 | libvorbis         | 1.3.7       |
 | libvpx            | 1.15.2      |
 | libwebp           | 1.6.0       |
 | libx264           | 0.165.r3222 |
 | libx265           | 4.1         |
-| libzimg           | 3.0.5       |
+| libzimg           | 3.0.6       |
 | sdl2              | 2.32.10     |
 | vapoursynth       | R73         |
+| whisper.cpp       | 1.8.2-git   |
 | amf-headers       | 1.4.36.0    |
 | ffnvcodec-headers | 13.0.19.0   |
 | libvpl            | 2.15.0      |
-| vulkan-headers    | 1.4.328.1   |
+| vulkan-headers    | 1.4.335.0   |
 
 ## 更新
 
-2025-12-09
-Source: https://github.com/FFmpeg/FFmpeg/commit/7b773aba82ea91af24e711262725a462fe71c12c
+2025-12-13
+Source: https://github.com/FFmpeg/FFmpeg/commit/3da2a21710a466eb64bce5675a939736394aceb1
 
