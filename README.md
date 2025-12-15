@@ -16,7 +16,7 @@ libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
 amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 ```
 
-* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），whisper.cpp（whisper 音频滤镜）
+* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），whisper.cpp（whisper 音频滤镜，使用 vulkan 加速）
 * 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libx264（h264 视频格式），libx265（hevc 视频格式），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libwebp（webp 图片格式），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
 * 字幕有关：libass（ass/ssa 字幕），libfontconfig / libfreetype / libfribidi / libharfbuzz（字体处理）
 * 渲染有关：sdl2 / vulkan（ffplay 渲染）
@@ -69,6 +69,6 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## 更新
 
-2025-12-13
-Source: https://github.com/FFmpeg/FFmpeg/commit/3da2a21710a466eb64bce5675a939736394aceb1
+2025-12-15
+Source: https://github.com/FFmpeg/FFmpeg/commit/b9078c0939c9c8840fed1e569eead4f2cef7eaeb
 
