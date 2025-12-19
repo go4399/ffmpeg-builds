@@ -48,7 +48,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libfribidi        | 1.0.16      |
 | libharfbuzz       | 12.2.0      |
 | libmp3lame        | 3.100       |
-| libopus           | 1.5.2       |
+| libopus           | 1.6         |
 | libplacebo        | 7.351.0     |
 | librubberband     | 3.3.0       |
 | libshaderc        | 2025.5      |
@@ -57,7 +57,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libvpx            | 1.15.2      |
 | libwebp           | 1.6.0       |
 | libx264           | 0.165.r3222 |
-| libx265           | 4.1         |
+| libx265           | 4.1.0.211   |
 | libzimg           | 3.0.6       |
 | sdl2              | 2.32.10     |
 | vapoursynth       | R73         |
@@ -69,6 +69,6 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## 更新
 
-2025-12-15
-Source: https://github.com/FFmpeg/FFmpeg/commit/b9078c0939c9c8840fed1e569eead4f2cef7eaeb
+2025-12-19
+Source: https://github.com/FFmpeg/FFmpeg/commit/5946d2eadc75aaf90f930f1afdd74ca622ffd384
 
