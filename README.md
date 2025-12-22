@@ -11,12 +11,12 @@ FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.e
 本编译版包含所有内部组件及以下外部库：
 ```
 avisynth+ lcms2 libass libdav1d libfontconfig libfreetype libfribidi libharfbuzz
-libmp3lame libopus libplacebo librubberband libshaderc libsvtav1 libvorbis libvpx
-libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
+libmp3lame libopus libplacebo librubberband libshaderc libsoxr libsvtav1 libvorbis
+libvpx libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
 amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 ```
 
-* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），whisper.cpp（whisper 音频滤镜，使用 vulkan 加速）
+* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），libsoxr（soxr 音频重采样），whisper.cpp（whisper 音频滤镜，使用 vulkan 加速）
 * 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libx264（h264 视频格式），libx265（hevc 视频格式），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libwebp（webp 图片格式），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
 * 字幕有关：libass（ass/ssa 字幕），libfontconfig / libfreetype / libfribidi / libharfbuzz（字体处理）
 * 渲染有关：sdl2 / vulkan（ffplay 渲染）
@@ -26,7 +26,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 * 不支持 cairo libaom libgme libgsm libopencore-amrnb libopencore-amrwb libopenjpeg libopenmpt libspeex libsrt libssh libtheora libvidstab libvmaf libvo-amrwbenc libxvid libzmq openal 外部库
 * 不支持 vaapi 硬件加速
-* 支持 lcms2 libdav1d libplacebo libshaderc libsvtav1 vapoursynth whisper 外部库
+* 支持 lcms2 libdav1d libplacebo libshaderc libsoxr libsvtav1 vapoursynth whisper 外部库
 * 支持 vulkan 硬件加速
 * 采用动态链接
 
@@ -37,38 +37,39 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## 外部库版本
 
-| libraries         | version     |
-|-------------------|-------------|
-| avisynth+         | 3.7.5       |
-| lcms2             | 2.17        |
-| libass            | 0.17.4      |
-| libdav1d          | 1.5.2       |
-| libfontconfig     | 2.17.1      |
-| libfreetype       | 2.14.1      |
-| libfribidi        | 1.0.16      |
-| libharfbuzz       | 12.2.0      |
-| libmp3lame        | 3.100       |
-| libopus           | 1.6         |
-| libplacebo        | 7.351.0     |
-| librubberband     | 3.3.0       |
-| libshaderc        | 2025.5      |
-| libsvtav1         | 3.1.2       |
-| libvorbis         | 1.3.7       |
-| libvpx            | 1.15.2      |
-| libwebp           | 1.6.0       |
-| libx264           | 0.165.r3222 |
-| libx265           | 4.1.0.211   |
-| libzimg           | 3.0.6       |
-| sdl2              | 2.32.10     |
-| vapoursynth       | R73         |
-| whisper.cpp       | 1.8.2-git   |
-| amf-headers       | 1.4.36.0    |
-| ffnvcodec-headers | 13.0.19.0   |
-| libvpl            | 2.15.0      |
-| vulkan-headers    | 1.4.335.0   |
+| libraries         | version               |
+|-------------------|-----------------------|
+| avisynth+         | 3.7.5-103-g1291fec3   |
+| lcms2             | 2.18rc1-6-g23994d72   |
+| libass            | 0.17.4                |
+| libdav1d          | 1.5.2                 |
+| libfontconfig     | 2.17.1                |
+| libfreetype       | 2.14.1                |
+| libfribidi        | 1.0.16                |
+| libharfbuzz       | 12.2.0                |
+| libmp3lame        | 3.100                 |
+| libopus           | 1.6                   |
+| libplacebo        | 7.351.0-104-g47587a2d |
+| librubberband     | 4.0.0                 |
+| libshaderc        | 2025.5-1-ge0a5092     |
+| libsoxr           | 0.1.3                 |
+| libsvtav1         | 3.1.2                 |
+| libvorbis         | 1.3.7                 |
+| libvpx            | 1.15.2                |
+| libwebp           | 1.6.0                 |
+| libx264           | 0.165.3223-g0480cb05  |
+| libx265           | 4.1-212-g9e551a99     |
+| libzimg           | 3.0.6                 |
+| sdl2              | 2.32.10               |
+| vapoursynth       | R73                   |
+| whisper.cpp       | 1.8.2-344-g6c22e792   |
+| amf-headers       | 1.5.0                 |
+| ffnvcodec-headers | 13.0.19.0             |
+| libvpl            | 2.16.0                |
+| vulkan-headers    | 1.4.335.0             |
 
 ## 更新
 
-2025-12-19
-Source: https://github.com/FFmpeg/FFmpeg/commit/5946d2eadc75aaf90f930f1afdd74ca622ffd384
+2025-12-22
+Source: https://github.com/FFmpeg/FFmpeg/commit/c50e5c777873f13d9fabf93bb5aebe6a93ed8f6e
 
