@@ -39,18 +39,18 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 | libraries         | version               |
 |-------------------|-----------------------|
-| avisynth+         | 3.7.5-103-g1291fec3   |
+| avisynth+         | 3.7.5-111-ge57b6869   |
 | lcms2             | 2.18rc1-6-g23994d72   |
-| libass            | 0.17.4                |
-| libdav1d          | 1.5.2                 |
-| libfontconfig     | 2.17.1                |
+| libass            | 0.17.4-20-gcbb7432    |
+| libdav1d          | 1.5.2-18-gbf82cfa7    |
+| libfontconfig     | 2.17.1-114-g80e88952  |
 | libfreetype       | 2.14.1                |
 | libfribidi        | 1.0.16                |
 | libharfbuzz       | 12.2.0                |
 | libmp3lame        | 3.100                 |
-| libopus           | 1.6                   |
-| libplacebo        | 7.351.0-104-g47587a2d |
-| librubberband     | 4.0.0                 |
+| libopus           | 1.6-13-g27d984b1      |
+| libplacebo        | 7.351.0-106-gbc90ef94 |
+| librubberband     | 4.0.0-2-ge4296ac      |
 | libshaderc        | 2025.5-1-ge0a5092     |
 | libsoxr           | 0.1.3                 |
 | libsvtav1         | 3.1.2                 |
@@ -60,9 +60,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libx264           | 0.165.3223-g0480cb05  |
 | libx265           | 4.1-212-g9e551a99     |
 | libzimg           | 3.0.6                 |
-| sdl2              | 2.32.10               |
+| sdl2              | 2.32.0-145-g3eba0b6f8 |
 | vapoursynth       | R73                   |
-| whisper.cpp       | 1.8.2-344-g6c22e792   |
+| whisper.cpp       | 1.8.2-345-g6114e692   |
 | amf-headers       | 1.5.0                 |
 | ffnvcodec-headers | 13.0.19.0             |
 | libvpl            | 2.16.0                |
@@ -70,6 +70,27 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## 更新
 
+2025-12-25
+* 修复 avcodec-62.dll avfilter-11.dll ffplay.exe 导出外部库函数的问题
+* 添加 vulkan-1.dll doc ffpresets README.txt GPLv2.txt
+
 2025-12-22
-Source: https://github.com/FFmpeg/FFmpeg/commit/c50e5c777873f13d9fabf93bb5aebe6a93ed8f6e
+* 增加 libsoxr
+
+2025-12-15
+* 增加 whisper.cpp 的 vulkan 后端
+
+2025-12-13
+* 增加 whisper.cpp cuda_llvm
+
+2025-12-09
+* 增加 avisynth+ lcms2 libplacebo libshaderc libvorbis vapoursynth vulkan
+
+2025-12-01
+* 开始
+
+## Last Source
+
+https://github.com/FFmpeg/FFmpeg/commit/abb15241388c18d1d2587dd8eb06f5eb50e2ff6a
+
 
