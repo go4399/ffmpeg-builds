@@ -40,7 +40,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-116-gab03a3ce         |
+| avisynth+         | 3.7.5-141-g9ffb1128         |
 | lcms2             | 2.18rc1-6-g23994d72         |
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-20-gcbb7432          |
@@ -52,7 +52,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libjxl            | 0.11-snapshot-462-g53042ec5 |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6-13-g27d984b1            |
-| libplacebo        | 7.351.0-106-gbc90ef94       |
+| libplacebo        | 7.351.0-107-g73ffd79b       |
 | librubberband     | 4.0.0-2-ge4296ac            |
 | libshaderc        | 2025.5-1-ge0a5092           |
 | libsoxr           | 0.1.3                       |
@@ -63,16 +63,19 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libwebp           | 1.6.0                       |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-212-g9e551a99           |
-| libzimg           | 3.0.6                       |
-| sdl2              | 2.32.0-147-gc795b0856       |
+| libzimg           | 3.0.6-211-gdf9c147          |
+| sdl2              | 2.32.0-148-gf432937f9       |
 | vapoursynth       | R73                         |
-| whisper.cpp       | 1.8.2-406-ge9898ddf         |
+| whisper.cpp       | 1.8.2-407-g679bdb53         |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
 | vulkan-headers    | 1.4.335.0                   |
 
 ## 更新
+
+2026-01-06
+* 编译 librubberband 时，使用 libsoxr-lsr 替代了 libsamplerate  
 
 2025-12-31
 * 增加 libaom libjxl 以支持 avif jxl 图像格式
@@ -99,8 +102,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Last Source (2025-12-31)
+## Last Source (2026-01-06)
 
-https://github.com/FFmpeg/FFmpeg/commit/38e89fe5022888f552dce95d168a60900ccffd17
+https://github.com/FFmpeg/FFmpeg/commit/03541f0026715e9026bfab9430e04e250b2e048d
 
 
