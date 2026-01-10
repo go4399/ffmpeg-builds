@@ -40,31 +40,31 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-141-g9ffb1128         |
-| lcms2             | 2.18rc1-6-g23994d72         |
+| avisynth+         | 3.7.5-150-g0d46f2db         |
+| lcms2             | 2.18                        |
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-20-gcbb7432          |
-| libdav1d          | 1.5.3                       |
-| libfontconfig     | 2.17.1-114-g80e88952        |
-| libfreetype       | 2.14.1                      |
-| libfribidi        | 1.0.16                      |
-| libharfbuzz       | 12.3.0                      |
-| libjxl            | 0.11-snapshot-462-g53042ec5 |
+| libdav1d          | 1.5.3-5-gafd13d89           |
+| libfontconfig     | 2.17.1-118-g25c40e71        |
+| libfreetype       | 2.14.1-39-g341049a95        |
+| libfribidi        | 1.0.16-2-gb28f43b           |
+| libharfbuzz       | 12.3.0-25-gbb7dbc25e        |
+| libjxl            | 0.11.1                      |
 | libmp3lame        | 3.100                       |
-| libopus           | 1.6-13-g27d984b1            |
-| libplacebo        | 7.351.0-107-g73ffd79b       |
+| libopus           | 1.6-26-g42455d28            |
+| libplacebo        | 7.351.0-143-g591c7b12       |
 | librubberband     | 4.0.0-2-ge4296ac            |
 | libshaderc        | 2025.5-1-ge0a5092           |
 | libsoxr           | 0.1.3                       |
 | libsrt            | 1.5.5-rc.0a-8-g72f0c6e0     |
 | libsvtav1         | 3.1.2                       |
-| libvorbis         | 1.3.7                       |
-| libvpx            | 1.15.2                      |
-| libwebp           | 1.6.0                       |
+| libvorbis         | 1.3.7-22-g2d79800b          |
+| libvpx            | 1.15.2-166-g1a400b808       |
+| libwebp           | 1.6.0-148-g45102247         |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-212-g9e551a99           |
 | libzimg           | 3.0.6-211-gdf9c147          |
-| sdl2              | 2.32.0-148-gf432937f9       |
+| sdl2              | 2.32.0-151-gcb0fb8c1a       |
 | vapoursynth       | R73                         |
 | whisper.cpp       | 1.8.2-407-g679bdb53         |
 | amf-headers       | 1.5.0                       |
@@ -74,6 +74,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## 更新
 
+2026-01-11
+* 取消延迟加载 libplacebo librubberband libshaderc
+
 2026-01-06
 * 编译 librubberband 时，使用 libsoxr-lsr 替代了 libsamplerate  
 
@@ -81,7 +84,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 * 增加 libaom libjxl 以支持 avif jxl 图像格式
 * 增加 libsrt
 * 增加 mpv 播放器（需解压缩到 ffmpeg 目录里运行）
-* 将 libplacebo librubberband libshaderc 编译为延迟加载动态库
+* ~~将 libplacebo librubberband libshaderc 编译为延迟加载动态库~~
 
 2025-12-25
 * 修复 avcodec-62.dll avfilter-11.dll ffplay.exe 导出外部库函数的问题
@@ -102,8 +105,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Last Source (2026-01-06)
+## Last Source (2026-01-11)
 
-https://github.com/FFmpeg/FFmpeg/commit/03541f0026715e9026bfab9430e04e250b2e048d
+https://github.com/FFmpeg/FFmpeg/commit/24213d5db30dae743a6479ede167bfcc02502523
 
 
