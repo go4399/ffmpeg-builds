@@ -16,8 +16,8 @@ libvorbis libvpx libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynt
 amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 ```
 
-* 音频有关：libmp3lame（mp3 音频格式），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），libsoxr（soxr 音频重采样），whisper.cpp（whisper 音频滤镜，使用 vulkan 加速）
-* 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libaom（av1 视频格式 / avif 图片格式），libx264（h264 视频格式），libx265（hevc 视频格式），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libjxl（jxl 图片格式），libwebp（webp 图片格式），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
+* 音频有关：libmp3lame（mp3 音频格式编码），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），libsoxr（soxr 音频重采样），whisper.cpp（whisper 音频滤镜，使用 vulkan 加速）
+* 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libaom（av1 视频格式 / avif 图片格式），libx264（h264 视频格式编码），libx265（hevc 视频格式编码），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libjxl（jxl 图片格式），libwebp（webp 图片格式编码），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
 * 字幕有关：libass（ass/ssa 字幕），libfontconfig / libfreetype / libfribidi / libharfbuzz（字体处理）
 * 协议有关：libsrt（srt 传输协议）
 * 渲染有关：sdl2 / vulkan（ffplay 渲染）
@@ -44,35 +44,39 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | lcms2             | 2.18                        |
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-20-gcbb7432          |
-| libdav1d          | 1.5.3-5-gafd13d89           |
+| libdav1d          | 1.5.3-6-g04b69f93           |
 | libfontconfig     | 2.17.1-118-g25c40e71        |
-| libfreetype       | 2.14.1-39-g341049a95        |
+| libfreetype       | 2.14.1-41-gdad464066        |
 | libfribidi        | 1.0.16-2-gb28f43b           |
-| libharfbuzz       | 12.3.0-25-gbb7dbc25e        |
+| libharfbuzz       | 12.3.0-26-ga603a3729        |
 | libjxl            | 0.11.1                      |
 | libmp3lame        | 3.100                       |
-| libopus           | 1.6-26-g42455d28            |
-| libplacebo        | 7.351.0-143-g591c7b12       |
+| libopus           | 1.6-29-g22244de5            |
+| libplacebo        | 7.351.0-145-g1dcaea8b       |
 | librubberband     | 4.0.0-2-ge4296ac            |
-| libshaderc        | 2025.5-1-ge0a5092           |
+| libshaderc        | 2025.5-2-gd15277d           |
 | libsoxr           | 0.1.3                       |
 | libsrt            | 1.5.5-rc.0a-8-g72f0c6e0     |
 | libsvtav1         | 3.1.2                       |
 | libvorbis         | 1.3.7-22-g2d79800b          |
-| libvpx            | 1.15.2-166-g1a400b808       |
+| libvpx            | 1.15.2-173-g5af00838c       |
 | libwebp           | 1.6.0-148-g45102247         |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-212-g9e551a99           |
 | libzimg           | 3.0.6-211-gdf9c147          |
-| sdl2              | 2.32.0-151-gcb0fb8c1a       |
+| sdl2              | 2.32.0-152-g01dff47fd       |
 | vapoursynth       | R73                         |
-| whisper.cpp       | 1.8.2-407-g679bdb53         |
+| whisper.cpp       | 1.8.3                       |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
-| vulkan-headers    | 1.4.335.0                   |
+| vulkan-headers    | 1.4.338.0                   |
 
 ## 更新
+
+2026-01-16
+* whisper.cpp 更新至 v1.8.3
+* vulkan-headers vulkan-loader spirv-headers spirv-tools glslang shaderc 更新至 vulkan-tmp-1.4.338
 
 2026-01-11
 * 取消延迟加载 libplacebo librubberband libshaderc
@@ -105,8 +109,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Last Source (2026-01-11)
+## Last Source (2026-01-16)
 
-https://github.com/FFmpeg/FFmpeg/commit/24213d5db30dae743a6479ede167bfcc02502523
+https://github.com/FFmpeg/FFmpeg/commit/be82aef7cc7ec9f4655bca4a01cc2396eee60a62
 
 
