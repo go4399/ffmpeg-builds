@@ -44,27 +44,27 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-21-gfadc390          |
 | libdav1d          | 1.5.3-18-gdaef3962          |
-| libfontconfig     | 2.17.1-134-gb0174d17        |
+| libfontconfig     | 2.17.1-139-ga9bd4fbc        |
 | libfreetype       | 2.14.1-58-g459af335b        |
 | libfribidi        | 1.0.16-2-gb28f43b           |
-| libharfbuzz       | 12.3.2-454-g8a8705e4d       |
+| libharfbuzz       | 12.3.2-481-gf391d3ea2       |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-9-g2d862ea1           |
-| libplacebo        | 7.360.0-3-gc93aa134         |
+| libplacebo        | 7.360.0-4-gf7c2db9e         |
 | librubberband     | 4.0.0-2-ge4296ac            |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.0.1-101-gd852ba61         |
+| libsvtav1         | 4.0.1-102-g6c985bc5         |
 | libvorbis         | 1.3.7-22-g2d79800b          |
-| libvpx            | 1.16.0-55-gbb9e8fa19        |
+| libvpx            | 1.16.0-56-g4fcebeabe        |
 | libwebp           | 1.6.0-150-gf342dfc1         |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-226-g1b48507eb          |
 | libzimg           | 3.0.6-211-gdf9c147          |
 | sdl2              | 2.32.0-163-g99ecc409c       |
 | vapoursynth       | R73                         |
-| whisper.cpp       | 1.8.3-156-g21411d81         |
+| whisper.cpp       | 1.8.3-197-g9453b4b9         |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
@@ -134,8 +134,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-02-26)
+## Source (2026-02-28)
 
-https://github.com/FFmpeg/FFmpeg/commit/47e87ed72233a165943c2b0393337b2e5acf1265
+https://github.com/FFmpeg/FFmpeg/commit/4e32fb4c2abaee9f71cf1d67d306dd5486fbad23
 
 
