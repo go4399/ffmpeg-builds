@@ -39,32 +39,32 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-246-g32431c4a         |
-| lcms2             | 2.18-19-gf6c146b            |
+| avisynth+         | 3.7.5-259-g48ac3b21d        |
+| lcms2             | 2.18-26-gf739cdafa          |
 | libaom            | 3.13.1                      |
-| libass            | 0.17.4-21-gfadc390          |
-| libdav1d          | 1.5.3-18-gdaef3962          |
-| libfontconfig     | 2.17.1-139-ga9bd4fbc        |
-| libfreetype       | 2.14.1-58-g459af335b        |
-| libfribidi        | 1.0.16-2-gb28f43b           |
-| libharfbuzz       | 12.3.2-481-gf391d3ea2       |
+| libass            | 0.17.4-21-gfadc39058        |
+| libdav1d          | 1.5.3-19-g1dcfc9075         |
+| libfontconfig     | 2.17.1-144-g39a8756c7       |
+| libfreetype       | 2.14.2-4-gd262bd978         |
+| libfribidi        | 1.0.16-2-gb28f43bd3         |
+| libharfbuzz       | 12.3.2-508-g3a8f96efa       |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
-| libopus           | 1.6.1-9-g2d862ea1           |
-| libplacebo        | 7.360.0-4-gf7c2db9e         |
-| librubberband     | 4.0.0-2-ge4296ac            |
+| libopus           | 1.6.1-9-g2d862ea14          |
+| libplacebo        | 7.360.0-7-g48bd96790        |
+| librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.0.1-102-g6c985bc5         |
-| libvorbis         | 1.3.7-22-g2d79800b          |
-| libvpx            | 1.16.0-56-g4fcebeabe        |
-| libwebp           | 1.6.0-150-gf342dfc1         |
+| libsvtav1         | 4.0.1-103-gf03b72530        |
+| libvorbis         | 1.3.7-23-g8de700169         |
+| libvpx            | 1.16.0-58-g9a2d3d1f4        |
+| libwebp           | 1.6.0-150-gf342dfc17        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.1-226-g1b48507eb          |
-| libzimg           | 3.0.6-211-gdf9c147          |
-| sdl2              | 2.32.0-163-g99ecc409c       |
+| libx265           | 4.1-227-gc2f1a9ded          |
+| libzimg           | 3.0.6-213-gbf3f425fc        |
+| sdl2              | 2.32.0-164-g22a6d76f2       |
 | vapoursynth       | R73                         |
-| whisper.cpp       | 1.8.3-197-g9453b4b9         |
+| whisper.cpp       | 1.8.3-197-g9453b4b9b        |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
@@ -72,6 +72,10 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | vulkan-loader     | 1.4.341                     |
 
 ## 更新
+
+2026-03-04
+* freetype 更新至 v2.14.2
+* libplacebo 更新至 v7.361.0
 
 2026-02-26
 * 移除 libsrt
@@ -134,8 +138,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-02-28)
+## Source (2026-03-04)
 
-https://github.com/FFmpeg/FFmpeg/commit/4e32fb4c2abaee9f71cf1d67d306dd5486fbad23
+https://github.com/FFmpeg/FFmpeg/commit/5b8a4a0e14cde74704b13493eb33cce3be260283
 
 
