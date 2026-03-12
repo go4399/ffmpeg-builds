@@ -40,24 +40,24 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libraries         | version                     |
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-265-ga371d0ac9        |
-| lcms2             | 2.18-26-gf739cdafa          |
+| lcms2             | 2.18-28-gc816599f3          |
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-21-gfadc39058        |
 | libdav1d          | 1.5.3-21-g241a6b236         |
 | libfontconfig     | 2.17.1-144-g39a8756c7       |
-| libfreetype       | 2.14.2-12-g45556a19a        |
+| libfreetype       | 2.14.2-20-g264b5fbf5        |
 | libfribidi        | 1.0.16-2-gb28f43bd3         |
-| libharfbuzz       | 13.0.1-8-g544864caa         |
+| libharfbuzz       | 13.1.0-26-g5d4e96ad8        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-9-g2d862ea14          |
-| libplacebo        | 7.360.0-8-g4c654e50a        |
+| libplacebo        | 7.360.0-9-g1bd8d2d6a        |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.0.1-118-g3610ad762        |
+| libsvtav1         | 4.0.1-121-g244fd7b04        |
 | libvorbis         | 1.3.7-23-g8de700169         |
-| libvpx            | 1.16.0-58-g9a2d3d1f4        |
+| libvpx            | 1.16.0-60-ge7d204077        |
 | libwebp           | 1.6.0-150-gf342dfc17        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-238-ga05eebb22          |
@@ -72,6 +72,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | vulkan-loader     | 1.4.341                     |
 
 ## 更新
+
+2026-03-12
+* harfbuzz 更新至 v13.1.0
 
 2026-03-09
 * harfbuzz 更新至 v13.0.1
@@ -142,8 +145,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-03-09)
+## Source (2026-03-12)
 
-https://github.com/FFmpeg/FFmpeg/commit/68046d0b3310513ddbdab64e25b5f7b69bd05963
+https://github.com/FFmpeg/FFmpeg/commit/72167e5150dfa01570118de9381f847b7e5aaf74
 
 
