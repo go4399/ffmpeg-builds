@@ -40,29 +40,29 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libraries         | version                     |
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-265-ga371d0ac9        |
-| lcms2             | 2.18-28-gc816599f3          |
+| lcms2             | 2.18-30-ge0641b182          |
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-21-gfadc39058        |
 | libdav1d          | 1.5.3-21-g241a6b236         |
 | libfontconfig     | 2.17.1-144-g39a8756c7       |
 | libfreetype       | 2.14.2-20-g264b5fbf5        |
 | libfribidi        | 1.0.16-2-gb28f43bd3         |
-| libharfbuzz       | 13.1.0-26-g5d4e96ad8        |
+| libharfbuzz       | 13.1.1-10-g73a339391        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-9-g2d862ea14          |
-| libplacebo        | 7.360.0-9-g1bd8d2d6a        |
+| libplacebo        | 7.360.0-11-g33b5dfada       |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.0.1-121-g244fd7b04        |
+| libsvtav1         | 4.0.1-131-g003643d4c        |
 | libvorbis         | 1.3.7-23-g8de700169         |
-| libvpx            | 1.16.0-60-ge7d204077        |
+| libvpx            | 1.16.0-61-ge1dd14963        |
 | libwebp           | 1.6.0-150-gf342dfc17        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.1-238-ga05eebb22          |
+| libx265           | 4.1-240-g8be7dbf81          |
 | libzimg           | 3.0.6-213-gbf3f425fc        |
-| sdl2              | 2.32.0-164-g22a6d76f2       |
+| sdl2              | 2.32.0-166-g3c28e8ecc       |
 | vapoursynth       | R73                         |
 | whisper.cpp       | 1.8.3-198-g30c5194c9        |
 | amf-headers       | 1.5.0                       |
@@ -72,6 +72,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | vulkan-loader     | 1.4.341                     |
 
 ## 更新
+
+2026-03-16
+* harfbuzz 更新至 v13.1.1
 
 2026-03-12
 * harfbuzz 更新至 v13.1.0
@@ -145,8 +148,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-03-12)
+## Source (2026-03-16)
 
-https://github.com/FFmpeg/FFmpeg/commit/72167e5150dfa01570118de9381f847b7e5aaf74
+https://github.com/FFmpeg/FFmpeg/commit/6ba0b59d8b014a311f94657557769040d8305327
 
 
