@@ -47,7 +47,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libfontconfig     | 2.17.1-144-g39a8756c7       |
 | libfreetype       | 2.14.2-20-g264b5fbf5        |
 | libfribidi        | 1.0.16-2-gb28f43bd3         |
-| libharfbuzz       | 13.1.1-10-g73a339391        |
+| libharfbuzz       | 13.1.1-15-g53cd1e5b0        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-9-g2d862ea14          |
@@ -55,16 +55,16 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.0.1-131-g003643d4c        |
+| libsvtav1         | 4.0.1-132-gd0701ba09        |
 | libvorbis         | 1.3.7-23-g8de700169         |
-| libvpx            | 1.16.0-61-ge1dd14963        |
-| libwebp           | 1.6.0-150-gf342dfc17        |
+| libvpx            | 1.16.0-62-g42d580255        |
+| libwebp           | 1.6.0-152-gd25c11493        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-240-g8be7dbf81          |
 | libzimg           | 3.0.6-213-gbf3f425fc        |
-| sdl2              | 2.32.0-166-g3c28e8ecc       |
+| sdl2              | 2.32.0-169-ga7d4b1996       |
 | vapoursynth       | R73                         |
-| whisper.cpp       | 1.8.3-198-g30c5194c9        |
+| whisper.cpp       | 1.8.3-294-gdc9611662        |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
@@ -72,6 +72,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | vulkan-loader     | 1.4.341                     |
 
 ## 更新
+
+2026-03-17
+* ffmpeg 版本基于 n8.2-dev
 
 2026-03-16
 * harfbuzz 更新至 v13.1.1
@@ -148,8 +151,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-03-16)
+## Source (2026-03-17)
 
-https://github.com/FFmpeg/FFmpeg/commit/6ba0b59d8b014a311f94657557769040d8305327
+https://github.com/FFmpeg/FFmpeg/commit/ac4d50cb26225aa1890f12a80af0968d8eac26d5
 
 
