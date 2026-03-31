@@ -39,32 +39,32 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-265-ga371d0ac9        |
-| lcms2             | 2.18-43-g66ef1193e          |
+| avisynth+         | 3.7.5-278-g3b636e799        |
+| lcms2             | 2.18-44-gd81d1bf88          |
 | libaom            | 3.13.1                      |
 | libass            | 0.17.4-21-gfadc39058        |
 | libdav1d          | 1.5.3-28-gd69235dd8         |
 | libfontconfig     | 2.17.1-159-g04e45cdd5       |
 | libfreetype       | 2.14.3-8-g07d8d50a6         |
 | libfribidi        | 1.0.16-2-gb28f43bd3         |
-| libharfbuzz       | 13.2.1-29-g44b44a623        |
+| libharfbuzz       | 13.2.1-291-gbe79d5426       |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-11-g788cc89ce         |
-| libplacebo        | 7.360.0-11-g33b5dfada       |
+| libplacebo        | 7.360.0-14-g54e527552       |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
 | libsvtav1         | 4.1.0-6-gf8b6146e6          |
 | libvorbis         | 1.3.7-23-g8de700169         |
-| libvpx            | 1.16.0-67-g090dd8b8c        |
-| libwebp           | 1.6.0-154-g08bc1239b        |
+| libvpx            | 1.16.0-73-gf14de9d29        |
+| libwebp           | 1.6.0-157-gb8814a57f        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-242-gcfee9638c          |
 | libzimg           | 3.0.6-217-g5e8c32222        |
 | sdl2              | 2.32.0-175-gf9e82031f       |
 | vapoursynth       | R73                         |
-| whisper.cpp       | 1.8.4                       |
+| whisper.cpp       | 1.8.4-58-g95ea8f9bf         |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
@@ -165,8 +165,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-03-28)
+## Source (2026-03-31)
 
-https://github.com/FFmpeg/FFmpeg/commit/62f944d594cc4f26e1ef1002bf6ffecbb0761a06
+https://github.com/FFmpeg/FFmpeg/commit/7d57621b832a68c7b150fb2aab1c02e14c82144d
 
 
