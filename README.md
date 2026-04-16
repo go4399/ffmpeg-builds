@@ -45,24 +45,24 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libass            | 0.17.4-21-gfadc39058        |
 | libdav1d          | 1.5.3-29-gaa4504729         |
 | libfontconfig     | 2.17.1-159-g04e45cdd5       |
-| libfreetype       | 2.14.3-13-g3221895b3        |
-| libfribidi        | 1.0.16-2-gb28f43bd3         |
-| libharfbuzz       | 14.1.0-46-ga1939317e        |
+| libfreetype       | 2.14.3-16-ga6d486002        |
+| libfribidi        | 1.0.16-4-g5c85a1746         |
+| libharfbuzz       | 14.1.0-209-gdba4dab3e       |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-11-g788cc89ce         |
-| libplacebo        | 7.360.0-14-g54e527552       |
+| libplacebo        | 7.360.0-16-g409c9a822       |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
 | libsvtav1         | 4.1.0-7-gb486d839a          |
 | libvorbis         | 1.3.7-24-g68a7fc224         |
-| libvpx            | 1.16.0-84-gb1f431c1e        |
-| libwebp           | 1.6.0-165-g080044c7f        |
+| libvpx            | 1.16.0-86-gc7c57b763        |
+| libwebp           | 1.6.0-172-g5003e5609        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.1-242-gcfee9638c          |
 | libzimg           | 3.0.6-217-g5e8c32222        |
-| sdl2              | 2.32.0-178-g9cc2f248f       |
+| sdl2              | 2.32.0-185-g9cab8fb59       |
 | vapoursynth       | R73                         |
 | whisper.cpp       | 1.8.4-58-g95ea8f9bf         |
 | amf-headers       | 1.5.0                       |
@@ -172,8 +172,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-04-12)
+## Source (2026-04-16)
 
-https://github.com/FFmpeg/FFmpeg/commit/56b97c03d4e68aa7ed42b5bfd470166a7235e1aa
+https://github.com/FFmpeg/FFmpeg/commit/3b19a618370488de4ff72657cec4157a3f9fe4a4
 
 
