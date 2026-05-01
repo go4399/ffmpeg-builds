@@ -40,29 +40,29 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | libraries         | version                     |
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-281-g23f0e3fa2        |
-| lcms2             | 2.19-2-g0de51ebab           |
+| lcms2             | 2.19-3-g4bf926a79           |
 | libaom            | 3.13.3                      |
-| libass            | 0.17.4-21-gfadc39058        |
-| libdav1d          | 1.5.3-32-gc0f2fe313         |
+| libass            | 0.17.4-23-g0a09b33ce        |
+| libdav1d          | 1.5.3-35-g5cfc38326         |
 | libfontconfig     | 2.17.1-164-g9b53fa0c6       |
-| libfreetype       | 2.14.3-27-g5d1099341        |
+| libfreetype       | 2.14.3-29-g6d9fc45fc        |
 | libfribidi        | 1.0.16-4-g5c85a1746         |
-| libharfbuzz       | 14.2.0-10-g79784ef4d        |
+| libharfbuzz       | 14.2.0-13-gef1b37502        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-12-gc6f8d82fc         |
-| libplacebo        | 7.360.0-21-g5f919b418       |
+| libplacebo        | 7.360.0-33-g27aa71a97       |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.1                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.1.0-11-gdc1d21024         |
+| libsvtav1         | 4.1.0-59-g5c5e14824         |
 | libvorbis         | 1.3.7-24-g68a7fc224         |
-| libvpx            | 1.16.0-96-g5197d83ba        |
+| libvpx            | 1.16.0-108-g640d4ce27       |
 | libwebp           | 1.6.0-175-g24f73316a        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.2                         |
+| libx265           | 4.2-4-g3f4120d21            |
 | libzimg           | 3.0.6-218-gfa52dee9e        |
-| sdl2              | 2.32.0-197-gd07d39b0d       |
+| sdl2              | 2.32.0-198-g039a60c52       |
 | vapoursynth       | R74                         |
 | whisper.cpp       | 1.8.4-60-gfc674574c         |
 | amf-headers       | 1.5.0                       |
@@ -184,8 +184,8 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 2025-12-01
 * 开始
 
-## Source (2026-04-28)
+## Source (2026-05-01)
 
-https://github.com/FFmpeg/FFmpeg/commit/3cdd76ba96ab331c30d442769f49c2331a7780f8
+https://github.com/FFmpeg/FFmpeg/commit/739fc9249cf1587a3f5f50c16216272d9991a099
 
 
