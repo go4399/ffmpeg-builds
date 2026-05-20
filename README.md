@@ -4,11 +4,11 @@
 
 FFmpeg 是一个广泛使用的跨平台多媒体框架，能够处理几乎所有常见和许多不常见的媒体格式，拥有超过1000个内部组件，并且可以利用数十种外部库来提供更多功能。
 
-FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.exe 播放媒体文件，ffprobe.exe 查看媒体信息。 编译这些工具时，可以选择只支持部分组件和外部库。
+FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.exe 播放媒体文件，ffprobe.exe 查看媒体信息。 编译这些工具时，可按需选取内部组件和外部库进行构建。
 
-## 本编译版
+## 本编译版的配置
 
-本编译版包含所有内部组件及以下外部库：
+本编译版启用了全部内部组件，并链接了以下外部库：
 ```
 avisynth+ lcms2 libaom libass libdav1d libfontconfig libfreetype libfribidi libharfbuzz
 libjxl libmp3lame libopus libplacebo librubberband libshaderc libsoxr libsvtav1 libvorbis
@@ -22,32 +22,40 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 * 渲染有关：sdl2 / vulkan（ffplay 渲染）
 * 硬件加速：amf（AMD 硬件加速），libvpl （Intel 硬件加速），nvenc / nvdec / cuda / cuvid（nVidia 硬件加速），d3d11va / d3d12va / dxva2（DirectX 硬件加速），vulkan（GPU 硬件加速），mediafoundation（Windows Media Foundation 硬件加速，Windows 8+）
 
-本编译版与 https://www.gyan.dev/ffmpeg/builds 的 git-essentials 版差异：
+本编译版与 https://www.gyan.dev/ffmpeg/builds 的 git-essentials 版的差异：
 
-* 不支持 cairo libgme libgsm libopencore-amrnb libopencore-amrwb libopenjpeg libopenmpt libspeex libsrt libssh libtheora libvidstab libvmaf libvo-amrwbenc libxvid libzmq openal 外部库
-* 不支持 vaapi 硬件加速
-* 支持 lcms2 libdav1d libjxl libplacebo libshaderc libsoxr libsvtav1 vapoursynth whisper 外部库
-* 支持 vulkan 硬件加速
-* 采用动态链接
+* 未包含 cairo libgme libgsm libopencore-amrnb libopencore-amrwb libopenjpeg libopenmpt libspeex libsrt libssh libtheora libvidstab libvmaf libvo-amrwbenc libxvid libzmq openal 外部库
+* 未包含 vaapi 硬件加速
+* 包含 lcms2 libdav1d libjxl libplacebo libshaderc libsoxr libsvtav1 vapoursynth whisper 外部库
+* 包含 vulkan 硬件加速
+* 编译为动态链接库
 
 ## 系统需求
 
-* 支持 x86-64-v3 AVX2 指令的 CPU，如 Intel 酷睿 4 代及以上，AMD 锐龙 1000 系列及以上（部分低功耗或嵌入式型号不支持 AVX2 指令）
-* Windows 10 及以上操作系统
+* 处理器必须支持 x86-64-v3（AVX2）指令集，例如 Intel 酷睿 4 代及以上，或 AMD 锐龙 1000 系列及以上（部分低功耗或嵌入式型号不支持 AVX2 指令）
+* 操作系统需为 Windows 10 或更高版本
+
+## FFmpeg 版本信息
+
+Version: 8.2-dev.1281+260520 (n8.2-dev-1281-g77c3a734)
+
+Source: https://github.com/FFmpeg/FFmpeg/commit/77c3a7349ee60d72805bd5f4d154f4322802d809
+
+License: GPL version 2 or later
 
 ## 外部库版本
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-303-g31b8b1678        |
+| avisynth+         | 3.7.5-315-gf72f22620        |
 | lcms2             | 2.19.1                      |
 | libaom            | 3.14.0                      |
 | libass            | 0.17.4-29-gc425f6d7e        |
 | libdav1d          | 1.5.3-46-g1718ff9ad         |
-| libfontconfig     | 2.17.1-164-g9b53fa0c6       |
-| libfreetype       | 2.14.3-54-gc0bac4c2d        |
+| libfontconfig     | 2.17.1-172-g65f59cf03       |
+| libfreetype       | 2.14.3-55-g7e0e56f84        |
 | libfribidi        | 1.0.16-4-g5c85a1746         |
-| libharfbuzz       | 14.2.0-30-g0cf18e7b6        |
+| libharfbuzz       | 14.2.0-39-g22ea52f42        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-19-gf8f995160         |
@@ -55,23 +63,23 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.2                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.1.0-122-gd7e159d28        |
-| libvorbis         | 1.3.7-29-ga629068dc         |
-| libvpx            | 1.16.0-122-ge9efe034e       |
-| libwebp           | 1.6.0-181-gbaff2c898        |
+| libsvtav1         | 4.1.0-124-gb183e47c1        |
+| libvorbis         | 1.3.7-30-g1c5f57a2c         |
+| libvpx            | 1.16.0-129-g63aad2761       |
+| libwebp           | 1.6.0-183-g6178b1db7        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.2-6-g7b3d1f515            |
 | libzimg           | 3.0.6-218-gfa52dee9e        |
 | sdl2              | 2.32.10-81-g6d7cbb707       |
 | vapoursynth       | R76                         |
-| whisper.cpp       | 1.8.4-323-g968eebe77        |
+| whisper.cpp       | 1.8.4-326-gafa2ea544        |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
 | vulkan-headers    | 1.4.350                     |
 | vulkan-loader     | 1.4.350                     |
 
-## 更新
+## 更新记录
 
 2026-05-16
 * libaom 更新至 v3.14.0
@@ -125,7 +133,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 * whisper.cpp 更新至 v1.8.4
 
 2026-03-17
-* ffmpeg 版本基于 n8.2-dev
+* ffmpeg 版本基线切换至 n8.2-dev
 
 2026-03-16
 * harfbuzz 更新至 v13.1.1
@@ -165,17 +173,17 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 2026-01-21
 * 使用 clang version 21.1.8 编译
-* whisper 滤镜使用 CPU 生成字幕的速度明显改善
+* whisper 滤镜使用 CPU 推理时，字幕生成速度明显提升
 
 2026-01-16
 * whisper.cpp 更新至 v1.8.3
 * vulkan-headers vulkan-loader spirv-headers spirv-tools glslang shaderc 更新至 vulkan-tmp-1.4.338
 
 2026-01-11
-* 取消延迟加载 libplacebo librubberband libshaderc
+* 取消 libplacebo librubberband libshaderc 的延迟加载
 
 2026-01-06
-* 编译 librubberband 时，使用 libsoxr-lsr 替代了 libsamplerate  
+* 编译 librubberband 时，将默认的重采样后端由 libsamplerate 替换为 libsoxr-lsr
 
 2025-12-31
 * 增加 libaom libjxl 以支持 avif jxl 图像格式
@@ -184,7 +192,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 * ~~将 libplacebo librubberband libshaderc 编译为延迟加载动态库~~
 
 2025-12-25
-* 修复 avcodec-62.dll avfilter-11.dll ffplay.exe 导出外部库函数的问题
+* 修复 avcodec-62.dll avfilter-11.dll ffplay.exe 对外部库函数的错误导出
 * 添加 vulkan-1.dll doc ffpresets README.txt GPLv2.txt
 
 2025-12-22
@@ -200,10 +208,5 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 * 增加 avisynth+ lcms2 libplacebo libshaderc libvorbis vapoursynth vulkan
 
 2025-12-01
-* 开始
-
-## Source (2026-05-16)
-
-https://github.com/FFmpeg/FFmpeg/commit/2aad4fb2e37cd598de103878e857b23b38eab57e
-
+* 初始构建
 
