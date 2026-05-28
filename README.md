@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 8.2-dev.1343+260524 (n8.2-dev-1343-g3baab604)
+Version: 8.2-dev.1392+260528 (n8.2-dev-1392-gaf4caa17)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/3baab604db9d6e2bad6931c822376e72eeffd5b9
+Source: https://github.com/FFmpeg/FFmpeg/commit/af4caa17a7eb3981cf9e082030123f9da9cfb15d
 
 License: GPL version 2 or later
 
@@ -49,13 +49,13 @@ License: GPL version 2 or later
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-315-gf72f22620        |
 | lcms2             | 2.19.1-2-g19e786a7f         |
-| libaom            | 3.14.0                      |
+| libaom            | 3.14.1                      |
 | libass            | 0.17.4-29-gc425f6d7e        |
-| libdav1d          | 1.5.3-46-g1718ff9ad         |
-| libfontconfig     | 2.18.0-6-gc215e6e01         |
+| libdav1d          | 1.5.3-49-g62501cc7d         |
+| libfontconfig     | 2.18.0-15-g2a7317b49        |
 | libfreetype       | 2.14.3-55-g7e0e56f84        |
 | libfribidi        | 1.0.16-4-g5c85a1746         |
-| libharfbuzz       | 14.2.0-41-gcb3fd656b        |
+| libharfbuzz       | 14.2.0-58-g1e434eb7f        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-19-gf8f995160         |
@@ -63,16 +63,16 @@ License: GPL version 2 or later
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.2                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.1.0-153-g035e06746        |
+| libsvtav1         | 4.1.0-157-gc6e697fa8        |
 | libvorbis         | 1.3.7-30-g1c5f57a2c         |
-| libvpx            | 1.16.0-134-gab83db610       |
-| libwebp           | 1.6.0-183-g6178b1db7        |
+| libvpx            | 1.16.0-139-g5f0041366       |
+| libwebp           | 1.6.0-186-g4df272360        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.2-6-g7b3d1f515            |
+| libx265           | 4.2-36-g9b057b172           |
 | libzimg           | 3.0.6-218-gfa52dee9e        |
-| sdl2              | 2.32.10-82-gbb6544657       |
+| sdl2              | 2.32.10-84-gfd494d377       |
 | vapoursynth       | R76                         |
-| whisper.cpp       | 1.8.4-328-g0ccd896f5        |
+| whisper.cpp       | 1.8.5-7-ge47a3eeb0          |
 | amf-headers       | 1.5.0                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
@@ -81,7 +81,11 @@ License: GPL version 2 or later
 
 ## 更新记录
 
-2026-05-22
+2026-05-28
+* libaom 更新至 v3.14.1
+* whisper.cpp 更新至 v1.8.5
+
+2026-05-24
 * fontconfig 更新至 v2.18.0
 
 2026-05-16
