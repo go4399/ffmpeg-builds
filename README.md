@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 8.2-dev.1392+260528 (n8.2-dev-1392-gaf4caa17)
+Version: 8.2-dev.1455+260602 (n8.2-dev-1455-g43f712d9)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/af4caa17a7eb3981cf9e082030123f9da9cfb15d
+Source: https://github.com/FFmpeg/FFmpeg/commit/43f712d9172888e31d0edfdb91a89cf8ec440274
 
 License: GPL version 2 or later
 
@@ -47,19 +47,19 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-315-gf72f22620        |
-| lcms2             | 2.19.1-2-g19e786a7f         |
+| avisynth+         | 3.7.5-316-g345a00034        |
+| lcms2             | 2.19.1-4-g00ff4b72b         |
 | libaom            | 3.14.1                      |
 | libass            | 0.17.4-29-gc425f6d7e        |
 | libdav1d          | 1.5.3-49-g62501cc7d         |
-| libfontconfig     | 2.18.0-15-g2a7317b49        |
-| libfreetype       | 2.14.3-55-g7e0e56f84        |
+| libfontconfig     | 2.18.0-18-g15c051980        |
+| libfreetype       | 2.14.3-58-gb08a2eb0d        |
 | libfribidi        | 1.0.16-4-g5c85a1746         |
-| libharfbuzz       | 14.2.0-58-g1e434eb7f        |
+| libharfbuzz       | 14.2.0-72-ga4eb9e25d        |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-19-gf8f995160         |
-| libplacebo        | 7.360.0-57-g051cc36fd       |
+| libplacebo        | 7.360.0-79-g50db5d92f       |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.2                      |
 | libsoxr           | 0.1.3                       |
@@ -72,14 +72,19 @@ License: GPL version 2 or later
 | libzimg           | 3.0.6-218-gfa52dee9e        |
 | sdl2              | 2.32.10-84-gfd494d377       |
 | vapoursynth       | R76                         |
-| whisper.cpp       | 1.8.5-7-ge47a3eeb0          |
-| amf-headers       | 1.5.0                       |
+| whisper.cpp       | 1.8.6                       |
+| amf-headers       | 1.5.2                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
 | vulkan-headers    | 1.4.350                     |
 | vulkan-loader     | 1.4.350                     |
 
 ## 更新记录
+
+2026-06-01
+* libplacebo 更新至 v7.365.0
+* whisper.cpp 更新至 v1.8.6
+* amf-headers 更新至 v1.5.2
 
 2026-05-28
 * libaom 更新至 v3.14.1
