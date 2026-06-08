@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 8.2-dev.1522+260604 (n8.2-dev-1522-gc27a3b12)
+Version: 8.2-dev.1608+260608 (n8.2-dev-1608-g6028720d)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/c27a3b12e3bfdedbd3af6cab9ed95c0a39ae3416
+Source: https://github.com/FFmpeg/FFmpeg/commit/6028720d70d0f50512c66df43f7c9e05d6797463
 
 License: GPL version 2 or later
 
@@ -51,28 +51,28 @@ License: GPL version 2 or later
 | lcms2             | 2.19.1-9-geca75f462         |
 | libaom            | 3.14.1                      |
 | libass            | 0.17.4-29-gc425f6d7e        |
-| libdav1d          | 1.5.3-49-g62501cc7d         |
+| libdav1d          | 1.5.3-52-g46e901735         |
 | libfontconfig     | 2.18.1                      |
-| libfreetype       | 2.14.3-58-gb08a2eb0d        |
+| libfreetype       | 2.14.3-59-g25a08f24c        |
 | libfribidi        | 1.0.16-5-g069a7e3d3         |
-| libharfbuzz       | 14.2.1-1-g8647a429c         |
+| libharfbuzz       | 14.2.1-6-g360a3024d         |
 | libjxl            | 0.11.2                      |
 | libmp3lame        | 3.100                       |
-| libopus           | 1.6.1-19-gf8f995160         |
+| libopus           | 1.6.1-20-gf18e26e64         |
 | libplacebo        | 7.360.0-80-gd4624cbfb       |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.2                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.1.0-157-gc6e697fa8        |
-| libvorbis         | 1.3.7-30-g1c5f57a2c         |
-| libvpx            | 1.16.0-140-g908e88c1a       |
+| libsvtav1         | 4.1.0-180-g6c5595a0c        |
+| libvorbis         | 1.3.7-31-gc9b52fc1c         |
+| libvpx            | 1.16.0-143-g9794f877a       |
 | libwebp           | 1.6.0-187-gb43b2caa7        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.2-36-g9b057b172           |
 | libzimg           | 3.0.6-218-gfa52dee9e        |
-| sdl2              | 2.32.10-84-gfd494d377       |
+| sdl2              | 2.32.10-85-g03d3bffbd       |
 | vapoursynth       | R76                         |
-| whisper.cpp       | 1.8.6-8-gad17783d3          |
+| whisper.cpp       | 1.8.6-56-g84bd03a43         |
 | amf-headers       | 1.5.2                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.16.0                      |
