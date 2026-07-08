@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 8.2-dev.2181+260704 (n8.2-dev-2181-g6f2f3755)
+Version: 8.2-dev.2232+260708 (n8.2-dev-2232-gc57660fb)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/6f2f3755a06bdab40028dd8bfcfe91e057aac845
+Source: https://github.com/FFmpeg/FFmpeg/commit/c57660fb18f058e8ead224e840b242d9c68fd3c4
 
 License: GPL version 2 or later
 
@@ -49,21 +49,21 @@ License: GPL version 2 or later
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-337-gfcb9c8a20        |
 | lcms2             | 2.19.1-21-g5cc0eec7a        |
-| libaom            | 3.14.1                      |
-| libass            | 0.17.5                      |
-| libdav1d          | 1.5.3-68-gc150ba6c9         |
-| libfontconfig     | 2.18.1-37-g939e33ee4        |
+| libaom            | 3.14.1-111-gf311099b0       |
+| libass            | 0.17.5-1-g4af332096         |
+| libdav1d          | 1.5.3-71-ge7bc8896d         |
+| libfontconfig     | 2.18.1-39-ge62fa0708        |
 | libfreetype       | 2.14.3-71-g5336c0d4d        |
 | libfribidi        | 1.0.16-5-g069a7e3d3         |
-| libharfbuzz       | 14.2.1-36-gfe9501b08        |
+| libharfbuzz       | 14.2.1-48-geb6d2466f        |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-50-g3da9f7a6d         |
-| libplacebo        | 7.360.0-99-g05ac2cca6       |
+| libplacebo        | 7.360.0-103-g813cfb4c2      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libshaderc        | 2026.2                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.1.0-279-gd3c4cb394        |
+| libsvtav1         | 4.1.0-287-gdf7767897        |
 | libvorbis         | 1.3.7-36-ge3c9861ff         |
 | libvpx            | 1.16.0-156-g8592391cd       |
 | libwebp           | 1.6.0-195-g733c91e46        |
