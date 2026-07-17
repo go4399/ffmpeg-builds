@@ -11,13 +11,13 @@ FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.e
 本编译版启用了全部内部组件，并链接了以下外部库：
 ```
 avisynth+ lcms2 libaom libass libdav1d libfontconfig libfreetype libfribidi libharfbuzz
-libjxl libmp3lame libopus libplacebo librubberband libshaderc libsoxr libsvtav1 libvorbis
+libjxl libmp3lame libopus libplacebo librubberband libsoxr libsvtav1 libvorbis
 libvpx libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
 amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 ```
 
 * 音频有关：libmp3lame（mp3 音频格式编码），libopus（opus 音频格式），libvorbis（vorbis 音频格式），librubberband（rubberband 音频滤镜），libsoxr（soxr 音频重采样），whisper.cpp（whisper 音频滤镜，使用 vulkan 加速）
-* 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libaom（av1 视频格式 / avif 图片格式），libx264（h264 视频格式编码），libx265（hevc 视频格式编码），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libjxl（jxl 图片格式），libwebp（webp 图片格式编码），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libshaderc（vulkan 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
+* 视频有关：avisynth+ / vapoursynth（视频帧服务器和脚本处理），libaom（av1 视频格式 / avif 图片格式），libx264（h264 视频格式编码），libx265（hevc 视频格式编码），libsvtav1（av1 视频格式编码），libdav1d（av1 视频格式解码），libvpx（vp8 和 vp9 视频格式），libjxl（jxl 图片格式），libwebp（webp 图片格式编码），lcms2（ICC 色彩管理），libplacebo（libplacebo 视频滤镜），libzimg（zscale 视频滤镜），cuda_llvm（cuda 视频滤镜）
 * 字幕有关：libass（ass/ssa 字幕），libfontconfig / libfreetype / libfribidi / libharfbuzz（字体处理）
 * 渲染有关：sdl2 / vulkan（ffplay 渲染）
 * 硬件加速：amf（AMD 硬件加速），libvpl （Intel 硬件加速），nvenc / nvdec / cuda / cuvid（nVidia 硬件加速），d3d11va / d3d12va / dxva2（DirectX 硬件加速），vulkan（GPU 硬件加速），mediafoundation（Windows Media Foundation 硬件加速，Windows 8+）
@@ -26,7 +26,7 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 * 未包含 cairo libgme libgsm libopencore-amrnb libopencore-amrwb libopenjpeg libopenmpt libspeex libsrt libssh libtheora libvidstab libvmaf libvo-amrwbenc libxvid libzmq openal 外部库
 * 未包含 vaapi 硬件加速
-* 包含 lcms2 libdav1d libjxl libplacebo libshaderc libsoxr libsvtav1 vapoursynth whisper 外部库
+* 包含 lcms2 libdav1d libjxl libplacebo libsoxr libsvtav1 vapoursynth whisper 外部库
 * 包含 vulkan 硬件加速
 * 编译为动态链接库
 
@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 8.2-dev.2278+260712 (n8.2-dev-2278-ga09be9b9)
+Version: 8.2-dev.2376+260717 (n8.2-dev-2376-g8d394252)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/a09be9b91e8e1219f297586873b0d7322b47df96
+Source: https://github.com/FFmpeg/FFmpeg/commit/8d394252d80d045bd5ad473f25e85dc55556105d
 
 License: GPL version 2 or later
 
@@ -47,44 +47,49 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-337-gfcb9c8a20        |
-| lcms2             | 2.19.1-21-g5cc0eec7a        |
+| avisynth+         | 3.7.5-342-gcfdaf8eb8        |
+| lcms2             | 2.19.1-22-g8f7f96b17        |
 | libaom            | 3.14.1-111-gf311099b0       |
 | libass            | 0.17.5-2-gf9fd3d20d         |
-| libdav1d          | 1.5.3-76-ga749472ff         |
-| libfontconfig     | 2.18.2-1-g2883bba03         |
-| libfreetype       | 2.14.3-71-g5336c0d4d        |
+| libdav1d          | 1.5.4                       |
+| libfontconfig     | 2.18.2-9-g08441e56c         |
+| libfreetype       | 2.14.3-72-gf01dec5e6        |
 | libfribidi        | 1.0.16-5-g069a7e3d3         |
-| libharfbuzz       | 14.2.1-52-g907579859        |
+| libharfbuzz       | 14.2.1-82-gaf85ffc44        |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 3.100                       |
 | libopus           | 1.6.1-50-g3da9f7a6d         |
 | libplacebo        | 7.360.0-105-ga7a18af88      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
-| libshaderc        | 2026.2                      |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.1.0-291-g627d95c7b        |
+| libsvtav1         | 4.2.0-13-gd4f847d88         |
 | libvorbis         | 1.3.7-36-ge3c9861ff         |
-| libvpx            | 1.16.0-159-gc1f98b5fe       |
+| libvpx            | 1.16.0-163-ga6b27ea55       |
 | libwebp           | 1.6.0-195-g733c91e46        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.2-59-gb81f650e2           |
-| libzimg           | 3.0.6-222-gb3647572a        |
+| libzimg           | 3.0.6-244-gea37a3103        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
 | vapoursynth       | R77                         |
 | whisper.cpp       | 1.9.1-154-g080bbbe85        |
 | amf-headers       | 1.5.2                       |
 | ffnvcodec-headers | 13.0.19.0                   |
-| libvpl            | 2.17.0                      |
+| libvpl            | 2.17.0-1-g674d015bc         |
 | vulkan-headers    | 1.4.350                     |
 | vulkan-loader     | 1.4.350                     |
 
 ## 更新记录
 
+2026-07-17
+* git master 分支移除 libshaderc 和 libglslang 支持
+* dav1d 更新至 v1.5.4
+* svt-av1 更新至 v4.2.0
+
 2026-07-12
 * fontconfig 更新至 v2.18.2
 
 2026-07-04
+* 使用 clang version 22.1.8 编译
 * libjxl 更新至 v0.12.0
 
 2026-07-01
