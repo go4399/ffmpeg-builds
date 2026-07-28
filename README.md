@@ -10,9 +10,9 @@ FFmpeg 提供了三种主要的工具，ffmpeg.exe 处理媒体文件，ffplay.e
 
 本编译版启用了全部内部组件，并链接了以下外部库：
 ```
-avisynth+ lcms2 libaom libass libdav1d libfontconfig libfreetype libfribidi libharfbuzz
-libjxl libmp3lame libopus libplacebo librubberband libsoxr libsvtav1 libvorbis
-libvpx libwebp libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
+avisynth+ lcms2 libaom libass libcurl libdav1d libfontconfig libfreetype libfribidi libharfbuzz
+libjxl libmp3lame libopus libplacebo librubberband libsoxr libsvtav1 libvorbis libvpx libwebp
+libx264 libx265 libzimg mediafoundation sdl2 vapoursynth whisper
 amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 ```
 
@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 8.2-dev.2480+260724 (n8.2-dev-2480-g6095372a)
+Version: 8.2-dev.2556+260728 (n8.2-dev-2556-gfe953596)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/6095372a70d17e48b67678532a492f943d206d00
+Source: https://github.com/FFmpeg/FFmpeg/commit/fe953596e9f53e3d61c465bce7a29834cae3375b
 
 License: GPL version 2 or later
 
@@ -49,29 +49,30 @@ License: GPL version 2 or later
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-342-gcfdaf8eb8        |
 | lcms2             | 2.19.1-30-ge2c0840b3        |
-| libaom            | 3.14.1-111-gf311099b0       |
+| libaom            | 3.14.1-131-g95f2f18a2       |
 | libass            | 0.17.5-2-gf9fd3d20d         |
 | libdav1d          | 1.5.4                       |
-| libfontconfig     | 2.18.2-15-g304b4de42        |
+| libfontconfig     | 2.18.2-23-gcb6be8340        |
 | libfreetype       | 2.14.3-75-g656cb7777        |
 | libfribidi        | 1.0.16-5-g069a7e3d3         |
-| libharfbuzz       | 14.2.1-100-gcce964cb4       |
+| libharfbuzz       | 14.2.1-111-gda7f951ef       |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
 | libopus           | 1.6.1-50-g3da9f7a6d         |
 | libplacebo        | 7.360.0-106-g4c426e466      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.2.0-28-g0dd9c6583         |
+| libsvtav1         | 4.2.0-46-g075f52e5d         |
 | libvorbis         | 1.3.7-36-ge3c9861ff         |
 | libvpx            | 1.16.0-176-gade52487a       |
 | libwebp           | 1.6.0-195-g733c91e46        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.2-59-gb81f650e2           |
+| libcurl           | 8.21.0                      |
 | libzimg           | 3.0.6-252-g1ad1895d5        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
-| vapoursynth       | R77                         |
-| whisper.cpp       | 1.9.1-154-g080bbbe85        |
+| vapoursynth       | R78                         |
+| whisper.cpp       | 1.9.1-155-g97c56f1dc        |
 | amf-headers       | 1.5.2                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.17.0-1-g674d015bc         |
@@ -79,6 +80,10 @@ License: GPL version 2 or later
 | vulkan-loader     | 1.4.357                     |
 
 ## 更新记录
+
+2026-07-28
+* vapoursynth 更新至 R78
+* 新增 libcurl v8.21.0
 
 2026-07-24
 * glslang 更新至 v16.4.0
