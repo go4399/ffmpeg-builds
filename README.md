@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.780+260812 (n9.1-dev-780-g82d03c6d)
+Version: 9.1-dev.868+260816 (n9.1-dev-868-g0056dd32)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/82d03c6d8e1a16182b3db873eada6b968996437c
+Source: https://github.com/FFmpeg/FFmpeg/commit/0056dd32fd94e739e14bb3c463c68ebe806dfd1d
 
 License: GPL version 2 or later
 
@@ -49,30 +49,30 @@ License: GPL version 2 or later
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-365-gde1d1fc0d        |
 | lcms2             | 2.19.1-34-ga5b898c7e        |
-| libaom            | 3.14.1-149-g95f420511       |
+| libaom            | 3.14.1-155-g7a210280b       |
 | libass            | 0.17.5-4-g3087d2b2f         |
-| libdav1d          | 1.5.4                       |
+| libdav1d          | 1.5.4-1-g52b9d3d3e          |
 | libfontconfig     | 2.18.3-9-gd32a19112         |
 | libfreetype       | 2.14.3-81-g9e9d3b73f        |
-| libfribidi        | 1.0.16-11-g04a8cb7a3        |
-| libharfbuzz       | 14.3.0-29-gd8dabe259        |
+| libfribidi        | 1.0.16-16-g5d829288e        |
+| libharfbuzz       | 14.3.1-12-g703e2d144        |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
-| libopus           | 1.6.1-50-g3da9f7a6d         |
-| libplacebo        | 7.360.0-109-g4d82c6898      |
+| libopus           | 1.6.1-51-g03647f524         |
+| libplacebo        | 7.360.0-111-g22ee762e8      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.2.0-73-gfb0ed7e59         |
+| libsvtav1         | 4.2.0-83-gfd116158a         |
 | libvorbis         | 1.3.7-37-g1b75110b5         |
-| libvpx            | 1.16.0-186-g9cc8e1c18       |
-| libwebp           | 1.6.0-209-gba8358578        |
+| libvpx            | 1.16.0-188-g8729fc25e       |
+| libwebp           | 1.6.0-221-g4fe551df7        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.3-13-gfe9bc85c3           |
 | libcurl           | 8.21.0                      |
 | libzimg           | 3.0.6-252-gf6cc75ad2        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
 | vapoursynth       | R79                         |
-| whisper.cpp       | 1.9.2-17-g592feef04         |
+| whisper.cpp       | 1.9.2-53-g1fe009cae         |
 | amf-headers       | 1.5.2                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.17.0-1-g674d015bc         |
@@ -80,6 +80,9 @@ License: GPL version 2 or later
 | vulkan-loader     | 1.4.357                     |
 
 ## 更新记录
+
+2026-08-16
+* harfbuzz 更新至 v14.3.1
 
 2026-08-12
 * ffmpeg 版本基线切换至 n9.1-dev
