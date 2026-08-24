@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.922+260820 (n9.1-dev-922-gf101fce2)
+Version: 9.1-dev.955+260824 (n9.1-dev-955-g1019f8f0)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/f101fce22d64db10f500242e23e43a251fe14414
+Source: https://github.com/FFmpeg/FFmpeg/commit/1019f8f036602a8464185baa4857654337eeca14
 
 License: GPL version 2 or later
 
@@ -47,22 +47,22 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-365-gde1d1fc0d        |
-| lcms2             | 2.19.1-34-ga5b898c7e        |
-| libaom            | 3.14.1-162-ga587e4855       |
-| libass            | 0.17.5-4-g3087d2b2f         |
+| avisynth+         | 3.7.5-372-g1ffeb08c7        |
+| lcms2             | 2.19.1-35-ga1a25a00b        |
+| libaom            | 3.14.1-164-g779882667       |
+| libass            | 0.17.5-8-gb2fe9d877         |
 | libdav1d          | 1.5.4-1-g52b9d3d3e          |
-| libfontconfig     | 2.18.3-12-gfd05caf8f        |
-| libfreetype       | 2.14.3-83-g5178bdc2a        |
+| libfontconfig     | 2.18.3-18-g2e1135a5d        |
+| libfreetype       | 2.14.3-85-g4800589f7        |
 | libfribidi        | 1.0.16-18-g58895678b        |
-| libharfbuzz       | 14.3.1-165-gcb9460bcb       |
+| libharfbuzz       | 14.3.1-182-g485df9d57       |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
 | libopus           | 1.6.1-51-g03647f524         |
 | libplacebo        | 7.360.0-111-g22ee762e8      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.2.0-83-gfd116158a         |
+| libsvtav1         | 4.2.0-84-g87f50f6fc         |
 | libvorbis         | 1.3.7-37-g1b75110b5         |
 | libvpx            | 1.16.0-192-g74bcf1124       |
 | libwebp           | 1.6.0-230-g523e30432        |
@@ -72,7 +72,7 @@ License: GPL version 2 or later
 | libzimg           | 3.0.6-252-gf6cc75ad2        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
 | vapoursynth       | R79                         |
-| whisper.cpp       | 1.9.3                       |
+| whisper.cpp       | 1.9.3-53-gc122757fd         |
 | amf-headers       | 1.5.2                       |
 | ffnvcodec-headers | 13.0.19.0                   |
 | libvpl            | 2.17.0-1-g674d015bc         |
