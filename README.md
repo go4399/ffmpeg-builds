@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.1079+260901 (n9.1-dev-1079-gc27482a1)
+Version: 9.1-dev.1097+260904 (n9.1-dev-1097-g818e5d96)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/c27482a18d7e63a2680638929359a82790eb7631
+Source: https://github.com/FFmpeg/FFmpeg/commit/818e5d965be955be8842ee3a4cdd7b43ab81661d
 
 License: GPL version 2 or later
 
@@ -48,18 +48,18 @@ License: GPL version 2 or later
 | libraries         | version                     |
 |-------------------|-----------------------------|
 | avisynth+         | 3.7.5-383-g5c82777b3        |
-| lcms2             | 2.19.1-42-g8db7d0328        |
-| libaom            | 3.15.0-16-ga40ed1ea9        |
+| lcms2             | 2.19.1-44-g47270ff27        |
+| libaom            | 3.15.0-19-gd565eec60        |
 | libass            | 0.17.5-8-gb2fe9d877         |
-| libdav1d          | 1.5.4-1-g52b9d3d3e          |
-| libfontconfig     | 2.18.3-27-g36aad9938        |
+| libdav1d          | 1.5.4-2-gaa09a630e          |
+| libfontconfig     | 2.18.3-37-gcbe55369e        |
 | libfreetype       | 2.14.3-93-g3db2c32d6        |
 | libfribidi        | 1.0.16-19-gc928e4c77        |
-| libharfbuzz       | 14.4.0-14-g46644f885        |
+| libharfbuzz       | 14.4.0-41-g724ef405f        |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
-| libopus           | 1.6.1-53-g228a0f855         |
-| libplacebo        | 7.360.0-120-g86bbd5df4      |
+| libopus           | 1.6.1-55-g8f39f9725         |
+| libplacebo        | 7.360.0-124-g3330a515d      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
 | libsvtav1         | 4.2.0-107-g8983dbe5f        |
@@ -67,9 +67,9 @@ License: GPL version 2 or later
 | libvpx            | 1.17.0-57-gd2413e2ca        |
 | libwebp           | 1.6.0-245-g9c4a699e5        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.3-22-g98eec4057           |
-| libcurl           | 8.21.0                      |
-| libzimg           | 3.0.6-252-gf6cc75ad2        |
+| libx265           | 4.3-24-gae31887b5           |
+| libcurl           | 8.22.0                      |
+| libzimg           | 3.0.6-253-g67e060327        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
 | vapoursynth       | R79                         |
 | whisper.cpp       | 1.9.3-77-geacbd8234         |
@@ -80,6 +80,9 @@ License: GPL version 2 or later
 | vulkan-loader     | 1.4.357                     |
 
 ## 更新记录
+
+2026-09-04
+* libcurl 更新至 v8.22.0
 
 2026-08-28
 * harfbuzz 更新至 v14.4.0
