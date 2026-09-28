@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.1523+260924 (n9.1-dev-1523-ga4ccc8bf)
+Version: 9.1-dev.1640+260928 (n9.1-dev-1640-g45f3fecc)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/a4ccc8bf93227d02a91fe21f67561cc7b443f7d7
+Source: https://github.com/FFmpeg/FFmpeg/commit/45f3fecca9f800a4432a6e3cfb3a76ef47f9d07a
 
 License: GPL version 2 or later
 
@@ -47,25 +47,25 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-383-g5c82777b3        |
+| avisynth+         | 3.7.5-437-g3209297b9        |
 | lcms2             | 2.19.1-53-ga0b0d7a69        |
-| libaom            | 3.15.1-51-gc8aad2b43        |
+| libaom            | 3.15.1-55-g0dbfa9f93        |
 | libass            | 0.17.5-11-gf61db567e        |
-| libdav1d          | 1.5.4-18-g5fa003d07         |
+| libdav1d          | 1.5.4-20-g173a09ea3         |
 | libfontconfig     | 2.18.3-63-gbd8f7b597        |
 | libfreetype       | 2.14.3-117-gd33343963       |
 | libfribidi        | 1.0.17-4-g24f15eee8         |
-| libharfbuzz       | 14.5.0-5-g873dbc1e3         |
+| libharfbuzz       | 14.5.0-8-g409c467b8         |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
 | libopus           | 1.6.1-68-g503d81b13         |
 | libplacebo        | 7.360.0-132-gc42968d86      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.2.0-157-g73ec3ee74        |
+| libsvtav1         | 4.2.0-159-g030543340        |
 | libvorbis         | 1.3.7-37-g1b75110b5         |
 | libvpx            | 1.17.0-61-g5e680f308        |
-| libwebp           | 1.6.0-271-gbb3ad5bc2        |
+| libwebp           | 1.6.0-275-gea3c97c62        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.3-53-g67d8a7d19           |
 | libcurl           | 8.22.0                      |
