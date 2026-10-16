@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.2081+261012 (n9.1-dev-2081-g615b0717)
+Version: 9.1-dev.2278+261016 (n9.1-dev-2278-g447b72d9)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/615b07170e30d79ad5906418ea49f81c3cbd8457
+Source: https://github.com/FFmpeg/FFmpeg/commit/447b72d90f2c0738c973e33532cfd325e2f3c9a5
 
 License: GPL version 2 or later
 
@@ -47,27 +47,27 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-478-g6c02f0dfa        |
-| lcms2             | 2.19.1-61-g15c24e7de        |
-| libaom            | 3.15.2-80-g8fbd65b2f        |
+| avisynth+         | 3.7.5-495-g9c36929bb        |
+| lcms2             | 2.19.1-62-ga57322d8d        |
+| libaom            | 3.15.2-96-g394f9f7df        |
 | libass            | 0.17.5-11-gf61db567e        |
 | libdav1d          | 1.5.4-31-g99f3354ed         |
 | libfontconfig     | 2.18.3-88-g129ddf329        |
-| libfreetype       | 2.14.3-150-ge2526d30e       |
-| libfribidi        | 1.0.17-4-g24f15eee8         |
-| libharfbuzz       | 14.6.0-73-ge8ed62652        |
+| libfreetype       | 2.15.0-4-g023fd06e3         |
+| libfribidi        | 1.0.17-7-gd2f3e1f49         |
+| libharfbuzz       | 14.6.0-101-g5365d272d       |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
-| libopus           | 1.6.1-68-g503d81b13         |
-| libplacebo        | 7.360.0-153-g1dd022687      |
+| libopus           | 1.6.1-81-g51bd2e649         |
+| libplacebo        | 7.360.0-166-g668c8c13a      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.2.0-180-g44e99b787        |
+| libsvtav1         | 4.2.0-182-g1ede9ed9a        |
 | libvorbis         | 1.3.7-37-g1b75110b5         |
-| libvpx            | 1.17.0-66-ged2a5b572        |
-| libwebp           | 1.6.0-335-g1c85c37f9        |
+| libvpx            | 1.17.0-69-g63bcd588b        |
+| libwebp           | 1.6.0-357-ga34daf678        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.3-63-g87f5f709b           |
+| libx265           | 4.3-66-g0900b28e7           |
 | libcurl           | 8.22.0                      |
 | libzimg           | 3.0.6-253-g67e060327        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
@@ -80,6 +80,9 @@ License: GPL version 2 or later
 | vulkan-loader     | 1.4.363                     |
 
 ## 更新记录
+
+2026-10-16
+* freetype 更新至 v2.15.0
 
 2026-10-12
 * 使用 clang version 23.1.3 编译
