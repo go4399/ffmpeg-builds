@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.2278+261016 (n9.1-dev-2278-g447b72d9)
+Version: 9.1-dev.2486+261020 (n9.1-dev-2486-g10743d06)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/447b72d90f2c0738c973e33532cfd325e2f3c9a5
+Source: https://github.com/FFmpeg/FFmpeg/commit/10743d064285747c16998418eba25772a082d724
 
 License: GPL version 2 or later
 
@@ -47,32 +47,32 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.5-495-g9c36929bb        |
-| lcms2             | 2.19.1-62-ga57322d8d        |
-| libaom            | 3.15.2-96-g394f9f7df        |
+| avisynth+         | 3.7.5-499-gaffdb40f1        |
+| lcms2             | 2.19.1-67-gb0f840f0e        |
+| libaom            | 3.15.2-102-g9440aeedd       |
 | libass            | 0.17.5-11-gf61db567e        |
-| libdav1d          | 1.5.4-31-g99f3354ed         |
-| libfontconfig     | 2.18.3-88-g129ddf329        |
-| libfreetype       | 2.15.0-4-g023fd06e3         |
+| libdav1d          | 1.5.4-36-g4c844317b         |
+| libfontconfig     | 2.18.3-90-gebec29cb7        |
+| libfreetype       | 2.15.0-8-g0eca44e6e         |
 | libfribidi        | 1.0.17-7-gd2f3e1f49         |
-| libharfbuzz       | 14.6.0-101-g5365d272d       |
+| libharfbuzz       | 14.6.0-121-g22e7463b5       |
 | libjxl            | 0.12.0-1-gfd6618be4         |
 | libmp3lame        | 4.0                         |
-| libopus           | 1.6.1-81-g51bd2e649         |
-| libplacebo        | 7.360.0-166-g668c8c13a      |
+| libopus           | 1.6.1-83-g5f74436dd         |
+| libplacebo        | 7.360.0-176-g285d1cc8a      |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
-| libsvtav1         | 4.2.0-182-g1ede9ed9a        |
+| libsvtav1         | 4.2.0-183-g2dbd20ca0        |
 | libvorbis         | 1.3.7-37-g1b75110b5         |
-| libvpx            | 1.17.0-69-g63bcd588b        |
-| libwebp           | 1.6.0-357-ga34daf678        |
+| libvpx            | 1.17.0-73-g0a6d123f0        |
+| libwebp           | 1.6.0-362-g1844042d1        |
 | libx264           | 0.165.3223-g0480cb05        |
 | libx265           | 4.3-66-g0900b28e7           |
-| libcurl           | 8.22.0                      |
+| libcurl           | 8.23.0                      |
 | libzimg           | 3.0.6-253-g67e060327        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
 | vapoursynth       | R81                         |
-| whisper.cpp       | 1.9.5-2-g0c7be6963          |
+| whisper.cpp       | 1.9.5-134-g231638a07        |
 | amf-headers       | 1.5.3                       |
 | ffnvcodec-headers | 13.1.15.0                   |
 | libvpl            | 2.17.0-1-g674d015bc         |
@@ -81,12 +81,17 @@ License: GPL version 2 or later
 
 ## 更新记录
 
+2026-10-20
+* libplacebo 更新至 v7.377.0
+
 2026-10-16
 * freetype 更新至 v2.15.0
+* libcurl 更新至 v8.23.0
 
 2026-10-12
 * 使用 clang version 23.1.3 编译
 * libaom 更新至 v3.15.2
+* libplacebo 更新至 v7.375.0
 
 2026-10-08
 * harfbuzz 更新至 v14.6.0
@@ -96,6 +101,7 @@ License: GPL version 2 or later
 
 2026-10-01
 * harfbuzz 更新至 v14.5.1
+* libplacebo 更新至 v7.374.0
 
 2026-09-24
 * harfbuzz 更新至 v14.5.0
@@ -104,6 +110,7 @@ License: GPL version 2 or later
 
 2026-09-20
 * fribidi 更新至 v1.0.17
+* libplacebo 更新至 v7.372.0
 * glslang 更新至 v16.6.0
 * shaderc 更新至 v2026.4
 * spirv-tools 更新至 v2026.4.rc2
@@ -159,6 +166,7 @@ License: GPL version 2 or later
 
 2026-07-12
 * fontconfig 更新至 v2.18.2
+* libplacebo 更新至 v7.371.0
 
 2026-07-04
 * 使用 clang version 22.1.8 编译
