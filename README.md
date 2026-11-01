@@ -37,9 +37,9 @@ amf cuda_llvm cuvid d3d11va d3d12va dxva2 ffnvcodec libvpl nvdec nvenc vulkan
 
 ## FFmpeg 版本信息
 
-Version: 9.1-dev.2832+261028 (n9.1-dev-2832-g16efe692)
+Version: 9.1-dev.2967+261101 (n9.1-dev-2967-g83572f13)
 
-Source: https://github.com/FFmpeg/FFmpeg/commit/16efe6927d850d23766aee15820abedcb1219121
+Source: https://github.com/FFmpeg/FFmpeg/commit/83572f1315b97a6b1f1a77dfb224a54bc80ccf1b
 
 License: GPL version 2 or later
 
@@ -47,32 +47,32 @@ License: GPL version 2 or later
 
 | libraries         | version                     |
 |-------------------|-----------------------------|
-| avisynth+         | 3.7.6                       |
-| lcms2             | 2.20rc1-1-g5546f1d68        |
-| libaom            | 3.15.2-123-gd38f7e442       |
-| libass            | 0.17.5-11-gf61db567e        |
-| libdav1d          | 1.5.4-41-gc6f51c881         |
-| libfontconfig     | 2.18.3-96-g92a279987        |
-| libfreetype       | 2.15.0-14-g3f6dad8e4        |
-| libfribidi        | 1.0.17-7-gd2f3e1f49         |
-| libharfbuzz       | 15.0.0-17-g2c0df50ce        |
-| libjxl            | 0.12.0-38-g8ce542f5e        |
+| avisynth+         | 3.7.6-6-g9e353a21a          |
+| lcms2             | 2.20                        |
+| libaom            | 3.15.3-130-gd55e6b33a       |
+| libass            | 0.17.5-19-g00fe2ec7a        |
+| libdav1d          | 1.5.4-43-g4e3ab21fb         |
+| libfontconfig     | 2.18.3-99-gb6cf4b270        |
+| libfreetype       | 2.15.0-17-g63e7ef2e6        |
+| libfribidi        | 1.0.18                      |
+| libharfbuzz       | 15.0.0-119-gb05c7266d       |
+| libjxl            | 0.12.0-51-ga16d32d0a        |
 | libmp3lame        | 4.0                         |
-| libopus           | 1.6.1-85-ga8b2545ee         |
-| libplacebo        | 7.387.0                     |
+| libopus           | 1.6.1-95-gbafd40dcb         |
+| libplacebo        | 7.387.0-6-gc4de47cd9        |
 | librubberband     | 4.0.0-2-ge4296ac80          |
 | libsoxr           | 0.1.3                       |
 | libsvtav1         | 4.2.0-183-g2dbd20ca0        |
 | libvorbis         | 1.3.7-37-g1b75110b5         |
-| libvpx            | 1.17.0-88-gfb0a26ad9        |
+| libvpx            | 1.17.0-91-g360f03c2f        |
 | libwebp           | 1.6.0-362-g1844042d1        |
 | libx264           | 0.165.3223-g0480cb05        |
-| libx265           | 4.3-83-g83ce412fd           |
+| libx265           | 4.3-93-g0807b60bc           |
 | libcurl           | 8.23.0                      |
 | libzimg           | 3.0.6-253-g67e060327        |
 | sdl2              | 2.32.10-88-g2e5b9a860       |
 | vapoursynth       | R81                         |
-| whisper.cpp       | 1.9.5-138-g284029c07        |
+| whisper.cpp       | 1.9.5-257-g482279b8a        |
 | amf-headers       | 1.5.3                       |
 | ffnvcodec-headers | 13.1.15.0                   |
 | libvpl            | 2.17.0-1-g674d015bc         |
@@ -81,7 +81,13 @@ License: GPL version 2 or later
 
 ## 更新记录
 
+2026-11-01
+* lcms2 更新至 v2.20
+* libaom 更新至 v3.15.3
+* fribidi 更新至 v1.0.18
+
 2026-10-28
+* 使用 clang version 23.1.4 编译
 * avisynth+ 更新至 v3.7.6
 * lcms2 更新至 v2.20rc1
 
